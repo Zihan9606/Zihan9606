@@ -1,21 +1,40 @@
 <html>
  <head>
-  <title>Blog</title>
+ <embed src="./music/music.mp3" hidden="false" autoplay="true" loop="true">
+  <title>Blog
+</title>
   <meta charset="utf-8" />
-  <style type="text/css">
-    p {color:black;}
-    h1{color:pink;}
+  <style> <!--type="text/css"有什么用-->
+  
    </style>
  </head>
-<h1> Welcome to Zihan Fan's Blog</h1>
+
 <body> 
-<p>I will keeplearning JS while I'm using this blog as an notebook.</p>
-<p> As I know, most of good notbook apps often using Markdown type. The offcial example theme of Github said whenever we commit our markdown type notebook to the repository,
- GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages from the content in Markdown files.
+<div class=h1>
+ <style>h1{color:pink;opacity:1}</style>
+<h1> Welcome to Zihan Fan's Blog</h1></div>
+<style>body{background-image: url("./images/background/水墨背景.jpg");
+background-size:cover;}
+</style>
+
+<div class="main">
+<style>
+span {background: yellow;}
+div.main{position:absolute;
+left:150;
+right:150;
+background: rgba(10,10,10,0.05);
+opacity:1;
+</style>
+<p>I will keeplearning JS while using this blog as an notebook.</p>
+<p> The offcial example theme of Github said whenever we commit our <span title="As I know, most of good notbook apps often using Markdown">Markdown</span> type notebook to the repository,
+ GitHub Pages will run <span title="(https://jekyllrb.com/)">[Jekyll]</span> to rebuild the pages from the content in Markdown files.But seems like
+ it doesn't work and need to be solved.Two more things are mouse changing and audio auto display.
 </p>
 <title>Folling thins are some kinds of testing</title>
-<p> 这是关于meta charset="utf-8"的中文输入测试</p>
- <title> Following things are not formatting</title>
+<p> 这是关于meta charset="utf-8"的中文输入测试&背景透明化字体随之透明化待解决</p>
+</div>
+<!--  Following things are not formatting
  
 var date = new Date();
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -47,6 +66,8 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-  </body>
+--> 
+
+</body>
 </html>
 
